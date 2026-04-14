@@ -39,7 +39,7 @@ return (
               </h2>
               <div id="editeur" className="accordion-collapse collapse show" data-bs-parent="#mentionsAccordion">
                 <div className="accordion-body">
-                  <h5 className="fw-semibold">John Doe</h5>
+                  <h2 className="fw-semibold">John Doe</h2>
                   <p><i className="bi bi-building me-2 text-primary"></i>40 rue Laure Diebold</p>
                   <p><i className="bi bi-geo-alt me-2 text-primary"></i>69009 Lyon, France</p>
                   <p><i className="bi bi-telephone me-2 text-primary"></i>10 20 30 40 50</p>
@@ -62,7 +62,7 @@ return (
               </h2>
               <div id="hebergeur" className="accordion-collapse collapse" data-bs-parent="#mentionsAccordion">
                 <div className="accordion-body">
-                  <h5 className="fw-semibold">alwaysdata</h5>
+                  <h2 className="fw-semibold">alwaysdata</h2>
                   <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
                   <p>
                     <i className="bi bi-globe me-2 text-primary"></i>
@@ -88,7 +88,7 @@ return (
               </h2>
               <div id="credits" className="accordion-collapse collapse" data-bs-parent="#mentionsAccordion">
                 <div className="accordion-body">
-                  <h5 className="fw-semibold">Crédits</h5>
+                  <h3 className="fw-semibold">Crédits</h3>
                   <p>
                     Ce site a été réalisé par John Doe, étudiant au{' '}
                     <a href="https://www.cef.fr" target="_blank" rel="noopener noreferrer">

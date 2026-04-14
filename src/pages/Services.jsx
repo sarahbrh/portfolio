@@ -40,7 +40,7 @@ function Services() {
                 <div className="card h-100 text-center p-4 service-card">
                   <div className="card-body">
                     <i className={`bi ${service.icon} fs-2 text-primary mb-3 d-block`}></i>
-                    <h5 className="card-title fw-semibold mb-3">{service.titre}</h5>
+                    <h2 className="card-title fw-semibold mb-3">{service.titre}</h2>
                     <p className="card-text text-muted">{service.description}</p>
                   </div>
                 </div>

@@ -77,7 +77,7 @@ function Portfolio() {
 
                   {/* Corps */}
                   <div className="card-body text-center">
-                    <h5 className="card-title fw-semibold">{projet.titre}</h5>
+                    <h2 className="card-title fw-semibold">{projet.titre}</h2>
                     <p className="card-text text-muted">{projet.description}</p>
                     <a href="#" className="btn btn-primary btn-sm portfolio-btn">
                       Voir le site

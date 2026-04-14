@@ -20,7 +20,7 @@ function Contact() {
 
             {/* Colonne gauche : formulaire */}
             <div className="col-12 col-md-6 border-end">
-              <h4 className="fw-semibold mb-2">Formulaire de contact</h4>
+              <h2 className="fw-semibold mb-2">Formulaire de contact</h2>
               <hr className="border-primary border-2 opacity-100 mb-4" style={{ width: '60px' }} />
 
               <div className="mb-3">
@@ -45,7 +45,7 @@ function Contact() {
 
             {/* Colonne droite : coordonnées + map */}
             <div className="col-12 col-md-6 ps-md-5 mt-4 mt-md-0">
-              <h4 className="fw-semibold mb-2">Mes coordonnées</h4>
+              <h2 className="fw-semibold mb-2">Mes coordonnées</h2>
               <hr className="border-primary border-2 opacity-100 mb-4" style={{ width: '60px' }} />
 
               <p className="fw-semibold mb-3">John Doe</p>
@@ -57,13 +57,12 @@ function Contact() {
               {/* Google Map */}
               <div className="mt-3">
                 <iframe
-                  title="Localisation John Doe"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.2!2d4.8!3d45.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb3b2a2b2b2b%3A0x0!2s40+Rue+Laure+Diebold%2C+69009+Lyon!5e0!3m2!1sfr!2sfr!4v1"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
+                    title="Localisation John Doe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.2!2d4.8!3d45.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb3b2a2b2b2b%3A0x0!2s40+Rue+Laure+Diebold%2C+69009+Lyon!5e0!3m2!1sfr!2sfr!4v1"
+                    height="300"
+                    style={{ border: 0, width: '100%' }}
+                    allowFullScreen=""
+                    loading="lazy"
                 ></iframe>
               </div>
             </div>
